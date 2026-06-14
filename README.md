@@ -46,7 +46,7 @@ curl -X POST http://localhost:3000/mappings \
   -H "Content-Type: application/json" \
   -d '{"id1": "user_123", "id2": "profile_456"}'
 
-9) sequence diagram
+9) structure
 on MacOS: brew install graphviz
 npx madge dist/main.js --image diagram.png
 </pre>
